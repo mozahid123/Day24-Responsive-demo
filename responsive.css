@@ -1,0 +1,129 @@
+@media (max-width:1200px){
+    .navbar-right ul {
+        padding-right: 3%;
+        max-width: 100%;
+       
+    }
+}
+@media(max-width:1020px){
+    .brand-name{
+        width: 100%;
+    }
+    .navbar-right{
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-right ul li a  {
+        
+        width: 100%;
+        text-align: center;
+        border: none;
+    }
+}
+@media (max-width:1024px){
+    .ser {
+     
+        width: 94%;
+        margin-right: 3%;
+        margin-left:3%;
+        margin-top: 13px;
+        margin-bottom: 10px;
+       
+      
+    }
+}
+@media (max-width:1024px){
+    .ri {
+    
+        width: 94%;
+        margin-right: 3%;
+        margin-left:3%;
+        
+      
+        margin-bottom: 10px;
+        margin-top: 10px;
+        
+    }
+}
+
+
+@media (max-width:1024px){
+    .blog-content {
+    
+        width: 94%;
+        margin-right: 3%;
+        margin-left:3%;
+        margin-top: 10px;
+
+      
+        margin-bottom: 10px;
+        
+    }
+}
+
+
+@media (max-width:750px){
+    .banner {
+  
+        background-size: cover;
+        padding: 80px 0;
+    }
+    .banner-caption h1 {
+        
+        
+        
+        max-width: 200px;
+       
+    }
+    .banner-caption h2 {
+       
+        max-width: 300px;
+    
+    }
+}
+
+
+@media (max-width:750px){
+    .bottom p {
+        text-align: center;
+        max-width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+}
+
+@media (max-width:750px){
+    .bottom p {
+        text-align: center;
+        max-width: 100%;
+    }
+    .left{
+        width: 100%;
+    }
+    .social{
+        text-align: center;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width:615px){
+    .service{
+        flex-direction: column;
+    }
+    .blog{
+        flex-direction:column ;
+    }
+}
+
+@media (max-width:400px) {
+ .navbar{
+     flex-direction: column;
+     background: green;
+     text-align: center;
+ }
+ .navbar-right ul li:hover{
+     background: #555;
+    
+ }
+}

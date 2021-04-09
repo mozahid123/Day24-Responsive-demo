@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    text-align: center;
+}
+
+
+/* HEADER */
+
+.navbar{
+    background-color:#333;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow:auto;
+}
+.brand-name h1{
+ height: 100%;
+ width: 100%;
+ color: white;
+}
+.navbar-right{
+} 
+.navbar-right ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+list-style-type: none;
+} 
+.navbar-right li a{
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+    line-height: 69px;
+    font-size: 15px;
+    border-right: 1px solid white;
+    text-decoration:none;
+} 
+
+.navbar-right ul li a:hover{
+    background: #555;
+}
+
+
+/* bannner */
+
+.banner{
+    background-image: url("https://cdn.pixabay.com/photo/2018/09/19/23/03/sunset-3689760__340.jpg");
+    background-size: cover;
+    padding:200px 0;
+}
+.banner-caption h1{
+    color: white;
+    background: lightgreen;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+    max-width: 300px;
+    display: block;
+    margin-bottom: 10px;
+}
+.banner-caption h2{
+    color: white;
+    background: lightgreen;
+   
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+
+/* about */
+.about{
+    background-color: lightgray;
+    padding: 30px;
+}
+.about h1{
+    margin-top: px;
+    
+}
+.about p{
+    max-width: 700px;
+    margin: auto;
+}
+
+
+/* service */
+.service{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.service-box{
+   border:3px solid black;
+   padding: 33px;
+}
+.service-box p{
+    max-width: 400px;
+    margin: auto;
+}
+.service-box span {
+
+}
+
+/* <!-- blog --> */
+ .blog{
+    background-color: lightgray;
+  
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+ }
+  .blog-content{
+   border: 3px solid black;
+   display: flex;
+   padding: 20px;
+   height: 200px;
+   }
+   .blog-content p{
+       text-align: justify;
+       overflow-y: hidden;
+   }
+
+   .blog-content img{
+    width: 30%;
+    height: 30%;
+
+   }
+   .blog-notice {
+       width: 100%;
+       border: 2px solid black;
+       padding: 20px;
+       height: 200px;
+       overflow-y: hidden;
+}
+.blog-notice h2 {
+ padding-bottom: 3px;
+}
+.blog-notice ul li{
+}
+
+.blog-notice ul li{
+    text-align: center;
+    padding:3px;
+    list-style-type:none ;
+    border-bottom:2px solid black;
+    border-radius: 30px;
+    overflow-y: hidden;
+}
+/* footer*/
+
+.footer{
+    background-color: cadetblue;
+    padding: 30px 0;
+    line-height: 10px;
+    text-align: center;
+}
+.footer ul{
+    padding-bottom:20px;
+}
+.social-icon li{
+    display: inline-block;
+    text-align: right;
+}
+.social-icon li a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 26px;
+	padding: 7px;
+    padding-bottom: 10px;
+}
